@@ -63,11 +63,6 @@ for dataset in datasets:
 			continue
 		signal.alarm(0)
 
-		#print(sorted(obs.data.keys()))
-		#latest_tstep = max(obs.data.keys())
-		#print(sorted(obs.data[latest_tstep].keys()))
-		#print(obs.data)
-		print(len(obs.data))
 		if(dataset[0] == "weather"):
 			datas.append(obs.data)
 		elif(dataset[0] == "sounding"):
