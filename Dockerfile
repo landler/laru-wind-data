@@ -10,8 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY fetch-fmi-data.py .
 COPY requirements.txt .
 COPY transform_fmi_data.py .
-COPY fetch-hirlam-forecasts.py .
-COPY reduce_hirlam_forecasts.py .
+COPY hirlam_map_wind.py .
 COPY map_cloud_cover.py .
 
 CMD [ "bash" ]
