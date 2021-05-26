@@ -1,0 +1,2 @@
+owslib==0.24.1
+fmiopendata==0.3.4
